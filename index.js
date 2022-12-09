@@ -1,4 +1,5 @@
 // Import packages
+const cors = require('cors');
 const express = require("express");
 const home = require("./routes/home");
 const mongoose = require('mongoose');
