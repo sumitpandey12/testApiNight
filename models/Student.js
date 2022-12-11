@@ -16,20 +16,13 @@ const Studentschema = new Schema({
     },
     rollNo: {
         type: String,
-        unique:true
+
 
 
     },
-    // phone: {
-    //     type: String,
-    //     required: [true, 'please enter an valid email pass'],
-    //     unique: true,
-    //     lowercase: true,
-    //     validate: [isEmail, 'please enter a valid email']
 
-    // },
-    phone:{
-        type:String,
+    phone: {
+        type: String,
 
     },
 
